@@ -1,4 +1,16 @@
 h1 {
-    text-align: center; 
+    text-align: center;
+    display: block;
+    
+}
+p {
+    color: blue;
+}
+span {
+    
+    
+}
+.quotes {
+    float: right;
     
 }

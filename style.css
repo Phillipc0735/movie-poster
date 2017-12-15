@@ -1,20 +1,21 @@
-
 h1 {
     text-align: center;
     display: block;
-    
+
 }
+
 p {
     color: blue;
 }
+
 span {
-    
-    
+    text-align: center;
+    position: relative;
+    left: 100px;
+
 }
-.quotes {
-    float: right;
-    
-}
+
+.quotes {}
 
 fonts {
     font-family: 'Bangers', cursive;
@@ -22,4 +23,8 @@ fonts {
 
 fonts2 {
     font-family: 'Khand', sans-serif;
+}
+
+input {
+    position: relative;
 }

@@ -2,10 +2,12 @@
 h1 {
     text-align: center;
     display: block;
+    font-family: 'Bangers', cursive;
     
 }
 p {
     color: blue;
+    font-family: 'Bangers', cursive;
 }
 span {
     

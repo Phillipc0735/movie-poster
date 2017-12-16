@@ -1,3 +1,4 @@
+
 h1 {
     text-align: center;
     display: block;
@@ -6,6 +7,8 @@ h1 {
 
 p {
     color: blue;
+    font-family: 'Bangers', cursive;
+
 }
 
 span {
@@ -15,16 +18,16 @@ span {
 
 }
 
-.quotes {}
-
-fonts {
-    font-family: 'Bangers', cursive;
-}
-
-fonts2 {
+.quotes {
     font-family: 'Khand', sans-serif;
+
 }
+
 
 input {
     position: relative;
+}
+img {
+    float: right;
+    rgb: 255, 255, 255;
 }

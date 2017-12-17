@@ -1,4 +1,12 @@
+body {
+    background: url("BBB");
 
+}
+#credits {
+    text-align: center;
+    color:black;
+    font-family: 'Khand', cursive;
+}
 h1 {
     text-align: center;
     display: block;
@@ -29,5 +37,7 @@ input {
 }
 img {
     float: right;
-    rgb: 255, 255, 255;
+    margin:10px, 20px, 10px, 20px;
+    padding: 1px, 1px, 1px, 1px;
+    position: relative;
 }

@@ -1,27 +1,58 @@
+/*body {*/
+/*    background: url("BBB");*/
+    
 
+/*}*/
+body {
+            height: 100%;
+            width: 105%;
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            z-index: -1;
+            background: linear-gradient( 
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)), 
+            url("BBB");
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+#credits {
+    text-align: center;
+    color:black;
+    font-family: 'Khand', cursive;
+}
 h1 {
     text-align: center;
     display: block;
-
-    
 }
-p {
+
+p{
     color: blue;
-
-}
-span {
-    
-    
-}
-.quotes {
-    float: right;
-    
-}
-
-fonts {
     font-family: 'Bangers', cursive;
 }
 
-fonts2 {
+span {
+    text-align: center;
+    position: relative;
+    left: 100px;
     font-family: 'Khand', sans-serif;
+
+}
+
+.quotes {
+    font-family: 'Khand', sans-serif;
+
+}
+
+
+input {
+    position: relative;
+}
+img {
+    float: right;
+    margin:10px, 20px, 10px, 20px;
+    padding: 1px, 1px, 1px, 1px;
+    position: relative;
 }

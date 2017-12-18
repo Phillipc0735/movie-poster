@@ -1,49 +1,46 @@
-/*body {*/
-/*    background: url("BBB");*/
-    
+.bg {
+    height: 100%;
+    width: 105%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    z-index: -1;
+    background: linear-gradient( rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)),
+    url("BBB.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
-/*}*/
-body {
-            height: 100%;
-            width: 105%;
-            position: absolute;
-            top: -15px;
-            left: -15px;
-            z-index: 1;
-            background: linear-gradient( 
-            rgba(0, 0, 0, 0.1), 
-            rgba(0, 0, 0, 0.1)), 
-            url("BBB");
-            background-size: cover;
-            background-repeat: no-repeat;
-            
-        }
+}
+
 #credits {
     text-align: center;
-    color:black;
+    color: black;
     font-family: 'Khand', cursive;
 }
+
 h1 {
     text-align: center;
     display: block;
-
 }
 
 p {
-    color: black;
+    color: blue;
     font-family: 'Bangers', cursive;
-
+    text-align: center;
 }
 
 span {
     text-align: center;
     position: relative;
     left: 100px;
+    font-family: 'Khand', sans-serif;
 
 }
 
 .quotes {
     font-family: 'Khand', sans-serif;
+    text-align: center;
 
 }
 
@@ -51,9 +48,11 @@ span {
 input {
     position: relative;
 }
+
 img {
-    float: right;
-    margin:10px, 20px, 10px, 20px;
+    float: center;
+    margin: auto;
     padding: 1px, 1px, 1px, 1px;
     position: relative;
+
 }
